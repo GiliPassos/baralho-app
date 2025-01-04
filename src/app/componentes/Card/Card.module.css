@@ -1,0 +1,58 @@
+.card_signo {
+  width: 200px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; /* Garante que a imagem e o texto tenham espaçamento adequado */
+  gap: 15px;
+  border-radius: 5px;
+  background-color: #856957;
+  color: #fff;
+  min-height: 300px; /* Definindo uma altura mínima para o card */
+}
+
+.card_signo img {
+  width: 180px;
+  height: auto;  /* Mantém a proporção original da imagem */
+  object-fit: cover; /* Faz a imagem cobrir a área do card sem distorcer */
+  border-radius: 2px;
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+.card_signo h3 {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.card_signo span {
+  font-size: 14px;
+  text-align: center; /* Centraliza o texto */
+}
+
+.card_signo_agua {
+  background-color: #56a5d8; /* Cor para o elemento Água */
+}
+
+.card_signo_fogo {
+  background-color: #e74c3c; /* Cor para o elemento Fogo */
+}
+
+.card_signo_terra {
+  background-color: #8e44ad; /* Cor para o elemento Terra */
+}
+
+.card_signo_ar {
+  background-color: #f39c12; /* Cor para o elemento Ar */
+}
+
+.titulo_icone {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icone {
+  font-size: 24px;
+}
